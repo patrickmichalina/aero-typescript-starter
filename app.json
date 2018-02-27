@@ -2,6 +2,6 @@
   "name": "aero-typescript-starter",
   "description": "A TypeScript flavored starter for AeroJS projects",
   "repository": "https://github.com/patrickmichalina/aero-typescript-starter",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://raw.githubusercontent.com/aerojs/aero/nodejs/docs/aero.js.png",
   "keywords": ["node", "aerojs", "high performance", "framework", "typescript"]
 }
