@@ -1,0 +1,21 @@
+{
+	"domain": "aero-test.herokuapp.com",
+	"title": "Test",
+	"static": [],
+	"styles": [],
+	"scripts": [],
+	"fonts": [
+		"Open Sans"
+	],
+	"icons": [],
+	"languages": [
+		"en"
+	],
+	"manifest": {},
+	"redirect": {},
+	"headers": {},
+	"ports": {
+		"http": 4000,
+		"https": 4001
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "aero-typescript-starter",
+	"version": "0.0.0",
+	"description": "aero-typescript-starter",
+	"repository": "https://github.com/patrickmichalina/aero-typescript-starter",
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^9.4.6",
+		"aero": "patrickmichalina/aero",
+		"aero-reset": "0.2.1",
+		"concurrently": "^3.5.1",
+		"ts-node": "5.0.0",
+		"typescript": "2.7.2"
+	},
+	"scripts": {
+		"start": "concurrently  \"tsc -w\"  \"ts-node index\"",
+		"start.prod": "tsc && NODE_ENV=production ts-node --expose-gc index",
+		"heroku-postbuild": "tsc"
+	},
+	"engines": {
+		"node": "= 9.4.0",
+		"npm": "= 5.6.0"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/*.js.map": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  }
+}
